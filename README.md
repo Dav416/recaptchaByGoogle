@@ -4,8 +4,8 @@
 This endpoint allows you to validate reCAPTCHA v2/v3 tokens from the server side, acting as a secure intermediary between your frontend application and Google's servers.
 
 ## URL examples
-https://your-domain.com/verify-recaptcha.php
-YOUR_SERVER/verify-recaptcha.php
+- https://your-domain.com/verify-recaptcha.php
+- YOUR_SERVER/verify-recaptcha.php
 
 ## General Information
 - URL: https://your-domain.com
