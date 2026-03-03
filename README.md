@@ -3,12 +3,8 @@
 ## Description
 This endpoint allows you to validate reCAPTCHA v2/v3 tokens from the server side, acting as a secure intermediary between your frontend application and Google's servers.
 
-## URL examples
-- https://your-domain.com/recaptchaByGoogle/verify-recaptcha.php
-- YOUR_SERVER/recaptchaByGoogle/verify-recaptcha.php
-
 ## General Information
-- URL: https://your-domain.com
+- URL: https://your-domain.com/recaptchaByGoogle/verify-recaptcha.php
 - HTTP Method: POST
 - Input Format: JSON
 - Output Format: JSON
@@ -18,6 +14,10 @@ This endpoint allows you to validate reCAPTCHA v2/v3 tokens from the server side
 - **Method:** `POST`
 - **Content-Type:** `application/json`
 - **CORS:** (`Access-Control-Allow-Origin: *`)
+
+## URL examples
+- https://your-domain.com/recaptchaByGoogle/verify-recaptcha.php
+- YOUR_SERVER/recaptchaByGoogle/verify-recaptcha.php
 
 ## Steps to configure
 - The user must register their domain on https://www.google.com/recaptcha/admin and obtain both the secret key and the public key.
